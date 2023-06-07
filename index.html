@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>atmosalex github</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./w3_mod.css"> 
+<style>
+
+.bulletin{
+  font-family:Courier New,monospace;font-size:15px;line-height:1.5;font-weight:600;
+}
+.bgimg {
+  
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)), url("./banner_header_lowres.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 75%;
+}
+.bgfoot {
+  
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1.0)), url("./banner_footer_lowres.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 75%;
+}
+
+@font-face {font-family: "Times Roman";
+  src: url("fonts/Times Roman.eot"); /* IE9*/
+  src: url("fonts/Times Roman.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/Times Roman.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/Times Roman.woff") format("woff"), /* chrome、firefox */
+  url("fonts/Times Roman.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/Times Roman.svg#Times Roman") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "Helvetica Regular";
+  src: url("fonts/Helvetica Regular.eot"); /* IE9*/
+  src: url("fonts/Helvetica Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("fonts/Helvetica Regular.woff2") format("woff2"), /* chrome、firefox */
+  url("fonts/Helvetica Regular.woff") format("woff"), /* chrome、firefox */
+  url("fonts/Helvetica Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("fonts/Helvetica Regular.svg#Helvetica Regular") format("svg"); /* iOS 4.1- */
+}
+
+</style>
+
+<!-- change these fonts to local links, upload the font files (downloaded on Mac), do the same thing with Helvetica -->
+<!-- reduce the size of jpgs for the banners and keep the size relative between top and bottom banner, it will be dark so artifacts don't matter -->
+
+
+<body>
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large">
+
+<div class="w3-padding-side w3-black bgimg" id="heading" >
+  <div class="w3-content" id="canvas_div" style="max-width:1080px; height:230px;position: relative;">
+    <canvas id="canvas_main" style="height: 100%; width: 100%; border:0px">
+    <!--The height percentage is to prevent a scroll bar appearing in the embedded code box-->
+    Your browser does not support the HTML5 canvas tag.</canvas>
+  </div>
+</div>
+
+
+
+<!-- About Container -->
+<div class=" w3-solaris" id="about">
+  <div class="w3-content w3-white50" style="max-width:1080px">
+    <div class="w3-content w3-padding-side" style="max-width:1020px">
+      <br>
+      <h1 >About</h1>
+      
+      <div>
+        <p>This is atmosalex's Github homepage with links to various resources that relate to the use of machine learning in space physics.</p>
+        <!--<p>Click on <i>Topics</i> to see more.</p>-->
+      </div>
+      
+      <br>
+
+      <h1>Updates</h1>
+      <div class="w3-panel w3-leftbar w3-white50 bulletin">
+          <p>2023/06/07 - Site created </p>
+      </div>
+    </div>
+    <br>
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center bgfoot w3-padding-48 w3-large" style="height:150px">
+  <p class="w3-text-white"><i>Hosted on Github</i></p>
+</footer>
+
+</body>
+<script src="./canvas_main.js"></script>
+</html>
