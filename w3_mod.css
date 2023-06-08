@@ -13,7 +13,7 @@ sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
 code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
 button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
 button,input{overflow:visible}button,select{text-transform:none}
-button{border-radius: 0%; padding: 7px;float: right;color: #000000}
+button{border-radius: 0%; padding: 7px;float: right;}
 /*button:hover {background-color: #000000; color: rgb(43, 201, 242);} transition-duration: 0.4s;*/
 button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
@@ -33,7 +33,7 @@ h2{font-family:"Times Roman",Times Roman,serif;font-style:italic;font-weight:400
 h3,h4,h5,h6{font-family:"Times Roman",Times Roman,serif;font-style:italic;font-weight:400;margin-bottom:10px;margin-top:0px}.w3-wide{letter-spacing:4px}
 hr{border:0;border-top:1px solid #737373ff;margin:20px 0}
 .mainbuttontext{font-family:"Times Roman",Times Roman,serif;font-style:italic;font-weight:400;font-size:30px}
-.monobuttontext{font-family:monospace,monospace;font-size:30px;font-size:15px}
+.monobuttontext{font-family:monospace,monospace;font-size:30px;font-size:15px;color: #000000}
 .navbar{overflow: hidden;}
 .w3-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .w3-table,.w3-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.w3-table-all{border:1px solid #ccc}
