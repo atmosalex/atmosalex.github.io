@@ -50,41 +50,43 @@
 
 <body>
 <!-- Add a background color and large text to the whole page -->
-<div class="w3-large">
+<div class="w3-large w3-solaris">
 
-<div class="w3-padding-side w3-black bgimg" id="heading" >
-  <div class="w3-content" id="canvas_div" style="max-width:1080px; height:230px;position: relative;">
-    <canvas id="canvas_main" style="height: 100%; width: 100%; border:0px">
-    <!--The height percentage is to prevent a scroll bar appearing in the embedded code box-->
-    Your browser does not support the HTML5 canvas tag.</canvas>
-  </div>
-</div>
-
-
-
-<!-- About Container -->
-<div class=" w3-solaris" id="about">
-  <div class="w3-content w3-white50" style="max-width:1080px">
-    <div class="w3-content w3-padding-side" style="max-width:1020px">
-      <br>
-      <h1 >About</h1>
-      
-      <div>
-        <p>This is atmosalex's Github homepage with links to various resources that relate to the use of machine learning in space physics.</p>
-        <!--<p>Click on <i>Topics</i> to see more.</p>-->
-      </div>
-      
-      <br>
-
-      <h1>Updates</h1>
-      <div class="w3-panel w3-leftbar w3-white50 bulletin">
-          <p>2023/06/07 - Site created </p>
-      </div>
+  <div class="w3-padding-side w3-black bgimg" id="heading" >
+    <div class="w3-content" id="canvas_div" style="max-width:1080px; height:230px;position: relative;">
+      <canvas id="canvas_main" style="height: 100%; width: 100%; border:0px">
+      <!--The height percentage is to prevent a scroll bar appearing in the embedded code box-->
+      Your browser does not support the HTML5 canvas tag.</canvas>
     </div>
-    <br>
+<!--     <div class="w3-content w3-solaris3" style="max-width:1080px;height:20px">
+    </div> -->
   </div>
-</div>
+  <!-- About Container -->
+  <div class="w3-padding-side w3-solaris" id="about" style="width:100%">
+    <div class="w3-content w3-solaris3" style="max-width:1080px">
+    <!--<div class="w3-content w3-padding-side w3-solaris3" style="max-width:1080px">-->
+      <div class="navbar w3-content monobuttontext" style="width:100%">
+      <button type="button">Home</button>
+      <button type="button">Blog</button>
+      <button type="button">Journal Club</button>
+      <button type="button">Repositories</button>
+      </div>
+      <br>
+      <div class="w3-content"> <!--buffer when outer div is at 100%, plus padding -->
+        <h1 >About</h1>
+        <div>
+          <p>This is atmosalex's homepage with links to various resources that relate to the use of machine learning in space physics.</p>
+        </div>
 
+        <h1>Updates</h1>
+        <div class="w3-panel w3-leftbar w3-white50 bulletin">
+            <p>2023/06/07 - Site created</p>
+        </div>
+      </div>
+      <br>
+    </div>
+
+  </div>
 
 <!-- End page content -->
 </div>
@@ -93,6 +95,11 @@
 <footer class="w3-center bgfoot w3-padding-48 w3-large" style="height:150px">
   <p class="w3-text-white"><i>Hosted on Github</i></p>
 </footer>
+<!-- <footer class="w3-center bgfoot w3-padding-side w3-black w3-large" style="height:150px">
+  <div class="w3-content w3-solaris3" style="max-width:1080px;height:20px">
+  </div>
+  <p class="w3-text-white"><i>Hosted on Github</i></p>
+</footer> -->
 
 </body>
 <script src="./canvas_main.js"></script>
