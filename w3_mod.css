@@ -13,7 +13,7 @@ sub{bottom:-0.25em}sup{top:-0.5em}figure{margin:1em 40px}img{border-style:none}
 code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;overflow:visible}
 button,input,select,textarea,optgroup{font:inherit;margin:0}optgroup{font-weight:bold}
 button,input{overflow:visible}button,select{text-transform:none}
-button{border-radius: 0%; padding: 5px;float: right; height: 4em;word-break: break-word;background-color: #e7e7e7; color: black;}
+button{border-radius: 0%; padding: 5px;float: right; height: 4em;word-break: break-word;background-color: rgba(255, 255, 255, 0.5); color: black;}
 /*button:hover {background-color: #000000; color: rgb(43, 201, 242);} transition-duration: 0.4s;*/
 button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}
 button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}
