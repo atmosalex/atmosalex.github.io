@@ -49,17 +49,16 @@ function getActiveTitle(){
     var idx;
 
     if (document.URL.includes(pagenames[0])){
-        idx = 1;
+        idx = 0;
     }else if(document.URL.includes(pagenames[1])){
-        idx = 2;
+        idx = 1;
     }else if(document.URL.includes(pagenames[2])){
-        idx = 3;
+        idx = 2;
     }else{
-        idx = 1; //home page
+        idx = 0; //home page
     }
     return idx
 }
-activetitle = getActiveTitle();
 
 
 function renderMap() {
@@ -71,6 +70,8 @@ function renderMap() {
         const newSize = parseFloat(ctx.font.match(match).groups.value + amount);
         return ctx.font = ctx.font.replace(match, newSize);
     }
+
+    //activetitle = getActiveTitle();
 
     //logo box:       
     ctx.strokeStyle = '#737373ff';
