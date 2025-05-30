@@ -22,6 +22,6 @@ I am from the UK and hold a bachelor's degree in Geophysics and a master's degre
 
 <img src="assets/img/chev_bw.png" width="400" align="left" style="padding-right: 20px; display: block; border: none;">
 
-In my spare time I enjoy exercise in various forms, tinkering with electronics and [D&D](https://www.dndbeyond.com/). As pictured here, I am currently restoring my 1997 Chevrolet Tahoe K1500, which has involved carrying out major engine and drivetrain work, rebuilding the front steering and suspension, and much more! 
+In my spare time I enjoy exercise in various forms, tinkering with electronics and D&D. As pictured here, I am currently restoring my 1997 Chevrolet Tahoe K1500, which has involved carrying out major engine and drivetrain work, rebuilding the front steering and suspension, and much more! 
 
 
