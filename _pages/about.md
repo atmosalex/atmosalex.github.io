@@ -6,9 +6,9 @@ subtitle:
 
 profile:
   align: right
-  image: profile_red.png
+  image: profile_redbw.png
   image_circular: false # crops the image to make it circular
-  more_info:
+  more_info: 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
