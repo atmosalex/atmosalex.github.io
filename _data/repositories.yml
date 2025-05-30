@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - atmosalex
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - atmosalex/pt
+  - atmosalex/psd-ML-model
+  - atmosalex/atmosalex_AOS111204.github.io
+  - atmosalex/BAS-PRO_plotting
+  - atmosalex/testmodel-f107
+  - atmosalex/pt
