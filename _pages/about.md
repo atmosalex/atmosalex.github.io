@@ -13,7 +13,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 
 ---
-<img src="assets/img/kayak.png" width="300" align="right" style="padding-left: 20px; display: block; border: none;">
+<img src="assets/img/me.png" width="300" align="right" style="padding-left: 20px; display: block; border: none;">
 
 Welcome to my home page. I am a postdoctoral researcher and instructor in the department of Atmospheric & Oceanic Sciences, UCLA, where I apply physics-based numerical modeling and machine learning methods to understand the distribution of protons and electrons in Earth's radiation belts. These particles irradiate orbiting satellites, leading to numerous adverse impacts, from degraded solar cell output power to total loss!
 
