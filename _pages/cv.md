@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 5
-cv_pdf: CV_Lozinski.pdf # you can also use external links here
+cv_pdf: Lozinski_CV.pdf # you can also use external links here
 description: CV attached
 toc:
   sidebar: left
