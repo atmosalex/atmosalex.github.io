@@ -4,9 +4,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - atmosalex/pt
+  - atmosalex/TRIPS-dipoleL
   - atmosalex/psd-ML-model
   - atmosalex/atmosalex_AOS111204.github.io
   - atmosalex/BAS-PRO_plotting
   - atmosalex/testmodel-f107
-  - atmosalex/pt
+  - atmosalex/spacecraft-internal-charging-model
