@@ -1,12 +1,14 @@
 github_users:
   - atmosalex
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - atmosalex/TRIPS-dipoleL
+  - atmosalex/data_index_partitioner
+  - atmosalex/TRIPS-Lstar
+  - atmosalex/spacecraft-internal-charging-model
   - atmosalex/psd-ML-model
+  - atmosalex/TRIPS-dipoleL
   - atmosalex/atmosalex_AOS111204.github.io
   - atmosalex/BAS-PRO_plotting
   - atmosalex/testmodel-f107
-  - atmosalex/spacecraft-internal-charging-model
