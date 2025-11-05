@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 3
 
 github_repos:
+  - atmosalex/gridsearch
   - atmosalex/data_index_partitioner
   - atmosalex/TRIPS-Lstar
   - atmosalex/spacecraft-internal-charging-model
